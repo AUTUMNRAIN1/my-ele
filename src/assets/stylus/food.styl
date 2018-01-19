@@ -1,0 +1,159 @@
+@import "./mixin.styl"
+// @import "../../common/stylus/icon.styl"
+.header
+  position relative
+  color: #fff
+  overflow hidden
+  background: rgba(7, 17, 27, 0.5)
+  .content-wrapper
+    position relative
+    padding: 24px 12px 18px 24px
+    // 这里会覆盖后面的字体，所以后面如果有字体的话记得设置回来，不然不会出现的
+    font-size: 0
+    .avatar
+      display: inline-block
+      vertical-align top
+      img
+        border-radius 2px
+    .content
+      display: inline-block
+      font-size: 14px
+      margin-left 16px
+      .title
+        margin 2px 0 8px 0
+        .brand
+          display inline-block
+          vertical-align top
+          width 30px
+          height 18px
+          bg-image("../assets/img/brand")
+          background-size 30px 18px
+          background-repeat no-repeat
+        .name
+          margin-left 6px
+          font-size 16px
+          line-height 18px
+          font-weight bold       
+      .description
+        margin-bottom 10px
+        line-height 12px
+        font-size 12px
+      .support
+        .icon
+          display inline-block
+          width 12px
+          height 12px
+          vertical-align top
+          margin-right 4px
+          background-size 12px 12px
+          background-repeat no-repeat
+          &.decrease
+            bg-image('../assets/img/decrease_1')
+          &.discount
+            bg-image('../assets/img/discount_1')
+          &.guarantee
+            bg-image('../assets/img/guarantee_1')
+          &.invoice
+            bg-image('../assets/img/invoice_1')
+          &.special
+            bg-image('../assets/img/special_1')
+        .text
+          line-height 12px
+          font-size 12px
+    .support-count
+    	position: absolute
+    	height: 24px 	
+    	background rgba(0, 0, 0, 0.2) 
+    	right:12px
+    	bottom: 14px
+    	line-height: 24px
+    	padding: 0 8px
+    	border-radius:12px     
+    	.count
+    		font-size:10px   		
+    	.icon
+    		margin-left: 2px
+    		line-height: 24px
+    		font-size: 10px
+    		.icon-keyboard_arrow_right
+    			font-size:10px
+	    		.icon-keyboard_arrow_right:before
+		       		content: "\e905"
+		        	font-size: 10px
+  .bulletin-wrapper
+  	height:28px
+  	line-height:28px  
+  	padding:0 22px 0 12px
+  	background:rgba(7,17,27,0.2)   
+  	overflow:hidden     
+  	text-overflow: ellipsis	
+  	white-space: nowrap      	
+  	.bulletin-title
+  		display:inline-block
+  		width:22px
+  		height:12px
+  		bg-image("../assets/img/bulletin")
+  		background-size:22px 12px
+  		background-repeat:no-repeat
+  		vertical-align:middle
+  	.bulletin-text
+  		font-size:10px
+  	.icon
+  		display:inline-block
+  .background
+  	position:absolute
+  	left:0
+  	top:0
+  	width:100%
+  	height:100%
+  	z-index:-1
+  	// 加上模糊值
+  	filter:blur(10px)
+  .detail
+    position fixed
+    z-index 100
+    top 0
+    right 0
+    width 100%
+    height 100%
+    overflow auto
+    background rgba(7, 17, 27, 0.8)  	
+    .detail-wrapper
+      width:100%
+      min-height:100%      
+      // background:red
+      .detail-main
+        margin-top:64px
+        padding-bottom:64px
+        // background:blue
+      .name
+        line-height:16px
+        text-align:center
+        font-size:16px
+        font-weight:700
+      .star_wrapper
+        margin-top 18px
+        padding 2px 0
+        text-align center
+      .title
+        display:flex
+        width:80%
+        margin:30px auto 24px auto       
+      .line
+        flex:1
+        position:relative
+        border-bottom:1px solid rgba(255,255,255,0.2)
+        top:-6px
+      .text
+        padding:0 20px
+    .detail-close
+      position:relative
+      width:32px
+      height:32px
+      margin:-64px auto 0 auto
+      background:yellow
+      font-size:32px
+      
+  		
+    
+       

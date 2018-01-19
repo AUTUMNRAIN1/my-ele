@@ -1,0 +1,193 @@
+    .home{
+      width: 100%;
+      height: 100%;
+      font-size: 10px;
+    }
+    .home .top{
+      position: fixed;
+      width: 100%;
+      height: 7%;
+      background: #3190e8;
+    }
+    .home .top a{
+      position: absolute;
+      top: 32%;
+      display: block;     
+      font-size: 1.6rem;
+      color: #fff;
+    }
+    .home .top .login{
+      right: 1.3%;
+    }
+    .home .top .place{
+      width: 60%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      left: 17%;
+    }
+    .home .top .search {
+      left: 2.3%;
+      top: 36%;
+      font-size: 2.2rem;
+    }
+    .home .carousel{
+      width: 100%;
+      height: 25%;
+      padding-top: 13%;
+      border-bottom: 1px solid #e4e4e4;
+      margin-bottom: 3%;
+    }
+    .carousel a{
+      display:block;
+      float: left;
+      width: 25%;
+      height: 50%;
+    }
+    .carousel a li{
+      width: 100%;
+      height: 100%;
+      list-style: none;
+    }
+    .carousel a li img{
+      width: 50%;
+      height: 56%;
+      left: 22%;
+      position: relative;
+    }
+    .carousel a li p{
+      width: 100%;
+      height: 10%;
+      color: #666;
+      font-size: 0.5rem;
+      text-align: center;
+    }
+    .home .carret{
+      width: 100%;
+      height: 63.5%;
+      overflow: auto;
+    }    
+    .home .carret .near{
+      text-align: left;
+      left: 10%;
+      width: 90%;
+      margin: 0 auto;
+    }
+    .home .carret li{
+      display: flex;
+      width: 100%;
+      height: 25%;
+      margin: 0 auto;
+      width: 90%;
+    }    
+    .home .carret li .img{
+      width: 20%;
+      height: 70%;
+      margin: auto;
+    }
+    .home .carret li .img img{
+      width: 100%;
+      height: 100%;
+    }
+    .home .carret li .right{
+      width: 80%;
+      height: 80%;
+      margin: auto;
+      border-bottom: 1px solid #eee;
+    }
+    .home .carret li .right .shang{
+      position: relative;
+      display: flex;
+      width: 100%;
+      height: 30%;
+    }
+    .home .carret li .right .shang .brand{
+      width: 10%;
+      height: 100%;
+      background: yellow;
+      line-height: 200%;
+      font-weight: 600;
+    }
+    .home .carret li .right .shang .gurantee{
+      right: 0;
+      position: absolute;
+      line-height: 200%;
+      font-size: 0.5rem;
+      letter-spacing: 1rem;
+      color: #999;
+    }
+    .home .carret li .right .shang .name{
+      color: #333;
+      font-weight: 700;
+      line-height: 160%;
+      margin-right: 10;
+      position: absolute;
+      left: 13%;
+      font-size: 1.5rem;
+    }
+    .home .carret li .right .middle{
+      display: flex;
+      width: 100%;
+      height: 33.3%;
+      position: relative;
+    }
+    .home .carret li .right .middle .star_all{
+      display: flex;
+      width: 30%;
+      height: 100%;
+    }
+    .home .carret li .right .middle .star{
+      width: 13%;
+      height: 43%;
+      background-image: url("../../components/star/star24_on@2x.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: auto;
+    }
+    .home .carret li .right .middle p{
+      display: inline-block;
+      line-height: 225%;
+    }
+    .home .carret li .right .middle .pinlun{
+      color: #ff6000;
+      padding-right: 3%;
+    }
+    .home .carret li .right .middle .sale{
+      color: #666;
+      font-size: 0.5rem;
+    }
+    .home .carret li .right .middle .pei{
+      display: flex;
+      right: 0;
+      position: absolute;
+      padding-top: 1%;
+    }
+    .home .carret li .right .middle .pei1{
+      color: #fff;
+      background-color: #3190e8;
+      border: 0.025rem solid #3190e8;
+      font-size: 0.4rem;
+      padding: 0.04rem 0.08rem 0;
+      position: relative;
+      right: 2%;
+    }
+    .home .carret li .right .middle .pei2{
+      color: #3190e8;
+      border: 0.025rem solid #3190e8;
+    }
+    .home .carret li .right .xia{
+      width: 100%;
+      height: 33.3%;
+      line-height: 245%;
+    }
+    .home .carret li .right .xia .xiaA{
+      color: #666;
+      font-size: 0.5rem;
+    }
+    .home .carret li .right .xia .xiaB{
+      color: #999;
+    }
+    .home .carret li .right .xia .xiaC{
+      color: #3190e8;;
+      font-size: 0.5rem;
+    }

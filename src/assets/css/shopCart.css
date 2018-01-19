@@ -1,0 +1,105 @@
+  .shopcart{
+    width: 100%;
+    height: 4.8rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #333;
+    z-index: 999;
+  }
+  .content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #141d27;
+  }
+  .content-left{
+    flex:1;
+  }
+  .content-right{
+    flex:0 0 auto;
+    width: 10rem;
+    background: purple;
+    /*background:#2b333b;*/
+  }
+  .content-left .logo-wrapper{
+    display: inline-block;
+    position: relative;
+    top: -1rem;
+    width: 5.6rem;
+    height: 5.6rem;
+    padding: 0.6rem;
+    margin: 0 1.2rem;
+    border-radius:50%;
+    background: #141d27;
+  }
+  .content-left .logo-wrapper .logo{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 50%;
+    background: #2b343c;
+  }
+  .content-left .logo-wrapper .logo.highlight{
+    background:rgb(0, 160, 220);
+
+  }
+  .content-left .logo-wrapper .logo .fa-shopping-cart{
+    font-size: 2.4rem;
+    color: #80858a;
+    line-height: 5rem;
+  }
+  .content-left .logo-wrapper .logo .fa-shopping-cart.highlight{
+    color:#fff;
+  }
+  .content-left .logo-wrapper .num{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2.4rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    border-radius: 1.6rem;
+    background: rgb(240,20,20);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .content-left .price{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1.2rem;
+    line-height: 2.4rem;
+    padding-right: 1.2rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+  .content-left .price.highlight{
+    color:#ffffff;
+  }
+  .content-left .desc{
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 2.4rem;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+  }
+  .content-right .pay{
+    height: 4.8rem;
+    line-height: 4.8rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color:rgba(255, 255, 255, 0.4);
+    font-weight:700;
+    /*background:#2b333b;*/
+  }
+  .content-right.not-enough{
+    background:yellow;
+  }
+  .content-right.enough{
+    background:red;
+    color:#ffffff;
+  }
